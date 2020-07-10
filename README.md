@@ -1,6 +1,6 @@
 # QuickFruit
 
-In this project I have built an android app on top of google's doodle data set - QuickDraw.
+In this project I have built an android app "<b>QuickFruit</b>" on top of google's doodle data set - QuickDraw.
 
 Download the app from the following link <a href="https://github.com/chiranjeevipippalla/QuickFruit/blob/master/app-debug.apk">QuickFruit App</a> and share your results @ pippalla.chiranjeevi@gmail.com
 
