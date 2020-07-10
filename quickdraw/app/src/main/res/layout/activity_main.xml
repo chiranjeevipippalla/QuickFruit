@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Draw a fruit"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <com.example.quickdraw.CustomView
+        android:id="@+id/customView"
+        android:layout_width="392dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button_guess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="GUESS" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLEAR" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16sp"
+            android:text="I guess, it's " />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            tools:text=""
+            android:visibility="visible"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='quickdraw'
+include ':app'
